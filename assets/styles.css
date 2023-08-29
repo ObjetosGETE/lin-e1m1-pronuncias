@@ -118,18 +118,23 @@
     width: fit-content;
 }
 .modal-content {
-    background-color: rgb(51, 51, 51);
+    background-color: #00a7b3;
     color: white;
-    font-family: 'whatever';
-    font-weight: 600;
+    /* font-family: 'whatever'; */
     font-size: 30px;
     box-shadow: 3px 3px 9px black;
+}
+.modal-header {
+    position: relative;
 }
 .close {
     padding: 3px 5px;
     border-radius: 4px;
     border: none;
     background-color: transparent;
+    position: absolute;
+    top: 10px;
+    z-index: 99;
 }
 .close:hover {
     transform: scale(1.1);
@@ -152,7 +157,7 @@ h5 {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 50px;
+    font-size: 40px;
 }
 .modal-body {
     display: flex;
@@ -164,6 +169,8 @@ h5 {
     margin-right: 15px;
     text-align: center;
     padding-left: 10px;
+    font-weight: normal;
+    
 }
 .modal-card {
     border-radius: 5px;
